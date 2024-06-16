@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZEB travel agency</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>WELCOME TO ZEB TRAVEL AGENCY </h1>
+    <button>Click here for info and booking</button>
+    <script type="module">
+        import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+        Chatbot.init({
+            chatflowid: "8e2dadd7-d17e-4025-a5a6-9cf5fb806f95",
+            apiHost: "http://localhost:3000",
+        })
+    </script>
+</body>
+</html>
